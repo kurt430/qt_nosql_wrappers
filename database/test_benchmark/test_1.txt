@@ -1,0 +1,72 @@
+********* Start testing of TestNoSQL *********
+Config: Using QtTest library 5.6.2, Qt 5.6.2 (i386-little_endian-ilp32 shared (dynamic) release build; by GCC 4.9.2)
+QINFO  : TestNoSQL::initTestCase() ENGINE: "leveldb_1.19"
+PASS   : TestNoSQL::initTestCase()
+PASS   : TestNoSQL::put_1Mb_value()
+RESULT : TestNoSQL::put_1Mb_value():
+     6.25 msecs per iteration (total: 100, iterations: 16)
+PASS   : TestNoSQL::put_10k_small_values()
+RESULT : TestNoSQL::put_10k_small_values():
+     56 msecs per iteration (total: 56, iterations: 1)
+PASS   : TestNoSQL::get_10k_small_values()
+RESULT : TestNoSQL::get_10k_small_values():
+     0.000024 msecs per iteration (total: 52, iterations: 2097152)
+PASS   : TestNoSQL::check_kv_map()
+QINFO  : TestNoSQL::cleanupTestCase() Database file: "leveldb_1_19" size: 18380522 bytes
+PASS   : TestNoSQL::cleanupTestCase()
+Totals: 6 passed, 0 failed, 0 skipped, 0 blacklisted
+********* Finished testing of TestNoSQL *********
+********* Start testing of TestNoSQL *********
+Config: Using QtTest library 5.6.2, Qt 5.6.2 (i386-little_endian-ilp32 shared (dynamic) release build; by GCC 4.9.2)
+QINFO  : TestNoSQL::initTestCase() ENGINE: "unqlite_1.1.6"
+PASS   : TestNoSQL::initTestCase()
+PASS   : TestNoSQL::put_1Mb_value()
+RESULT : TestNoSQL::put_1Mb_value():
+     94 msecs per iteration (total: 94, iterations: 1)
+PASS   : TestNoSQL::put_10k_small_values()
+RESULT : TestNoSQL::put_10k_small_values():
+     0.0000072 msecs per iteration (total: 61, iterations: 8388608)
+PASS   : TestNoSQL::get_10k_small_values()
+RESULT : TestNoSQL::get_10k_small_values():
+     0.0000075 msecs per iteration (total: 63, iterations: 8388608)
+PASS   : TestNoSQL::check_kv_map()
+QINFO  : TestNoSQL::cleanupTestCase() Database file: "unqlite_1_1_6" size: 3866624 bytes
+PASS   : TestNoSQL::cleanupTestCase()
+Totals: 6 passed, 0 failed, 0 skipped, 0 blacklisted
+********* Finished testing of TestNoSQL *********
+********* Start testing of TestNoSQL *********
+Config: Using QtTest library 5.6.2, Qt 5.6.2 (i386-little_endian-ilp32 shared (dynamic) release build; by GCC 4.9.2)
+QINFO  : TestNoSQL::initTestCase() ENGINE: "vedis_1.2.6"
+PASS   : TestNoSQL::initTestCase()
+PASS   : TestNoSQL::put_1Mb_value()
+RESULT : TestNoSQL::put_1Mb_value():
+     88 msecs per iteration (total: 88, iterations: 1)
+PASS   : TestNoSQL::put_10k_small_values()
+RESULT : TestNoSQL::put_10k_small_values():
+     0.0000073 msecs per iteration (total: 62, iterations: 8388608)
+PASS   : TestNoSQL::get_10k_small_values()
+RESULT : TestNoSQL::get_10k_small_values():
+     0.0000075 msecs per iteration (total: 63, iterations: 8388608)
+PASS   : TestNoSQL::check_kv_map()
+QINFO  : TestNoSQL::cleanupTestCase() Database file: "vedis_1_2_6" size: 3866624 bytes
+PASS   : TestNoSQL::cleanupTestCase()
+Totals: 6 passed, 0 failed, 0 skipped, 0 blacklisted
+********* Finished testing of TestNoSQL *********
+********* Start testing of TestNoSQL *********
+Config: Using QtTest library 5.6.2, Qt 5.6.2 (i386-little_endian-ilp32 shared (dynamic) release build; by GCC 4.9.2)
+QINFO  : TestNoSQL::initTestCase() ENGINE: "lmdb_0.9.70"
+PASS   : TestNoSQL::initTestCase()
+PASS   : TestNoSQL::put_1Mb_value()
+RESULT : TestNoSQL::put_1Mb_value():
+     0.11 msecs per iteration (total: 59, iterations: 512)
+PASS   : TestNoSQL::put_10k_small_values()
+RESULT : TestNoSQL::put_10k_small_values():
+     0.0000073 msecs per iteration (total: 62, iterations: 8388608)
+PASS   : TestNoSQL::get_10k_small_values()
+RESULT : TestNoSQL::get_10k_small_values():
+     0.0000073 msecs per iteration (total: 62, iterations: 8388608)
+PASS   : TestNoSQL::check_kv_map()
+QINFO  : TestNoSQL::cleanupTestCase() Database file: "lmdb_0_9_70" size: 6139904 bytes
+PASS   : TestNoSQL::cleanupTestCase()
+Totals: 6 passed, 0 failed, 0 skipped, 0 blacklisted
+********* Finished testing of TestNoSQL *********
