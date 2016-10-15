@@ -8,8 +8,8 @@
 
 # Basic usage:
 ```C++
-#include "database.h"
-#include "factory.h"
+#include "abstractdriver.h"
+#include "driverfactory.h"
 
 using namespace krdb;
 
